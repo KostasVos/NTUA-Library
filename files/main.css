@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: IBM Plex Sans;
+ 
+}
+
+body{
+    background-color: #e2e2e2; 
+}
+
+.header_bar{
+    background: rgb(255, 255, 255);
+}
+
+.header_bar::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.width_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height:100%;
+}
+
+nav{
+    float:right;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    color:black;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color:rgb(210, 242, 255);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+section{
+    background: rgb(255, 255, 255);
+}
+p{
+    margin:20px 20px;
+}
+
+h1{
+        margin:20px 20px;
+        background: rgb(255, 255, 255);
+    
+} 
+
+h2{
+    margin:20px 20px;
+    background: rgb(255, 255, 255);
+}
+
+footer{
+    width:100%;
+    padding: 10px 0px;
+    background-color: white;
+    font-style: italic;
+    text-align:center;
+    font-size: 0.8em;
+}
+
+.table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color:  rgb(128, 128, 128);
+    color: white;
+    height: 50px;
+    padding: 5px;
+    font-size: 15px;
+   
+}
+
+td {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+tr:nth-child(even) {background-color:#bee8f8;}
+
+
+.no_underline{
+    text-decoration: none;
+    color:black;
+}
+
+.no_underline:hover{
+    text-decoration: underline;
+    color:blue;
+}
+
+.addButton{
+    background-color: rgb(43, 218, 20);
+    border:2px solid rgb(43, 218, 20);
+    margin:5px 20px;
+    font-size: 16px;
+    color:white;
+    height:50px;
+    width:300px;
+    transition-duration: 0.4s;
+
+
+}
+.addButton:hover{
+    background-color: white;
+    color:black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.smalladdButton{
+    background-color: rgb(117, 169, 236);
+    border:2px solid rgb(117, 169, 236);
+    margin:5px 5px;
+    font-size: 16px;
+    color:white;
+    height:40px;
+    width:80px;
+    transition-duration: 0.4s;
+}
+.smalladdButton:hover{
+    background-color: white;
+    color:black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+    
+    /* forms */
+form{
+    margin : 0px 20px;
+}
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=number], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=date], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
